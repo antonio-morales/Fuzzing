@@ -1,0 +1,9 @@
+USER fuzzing
+PASS fuzzing
+PASV
+LIST
+STAT
+LIST
+STOR teste.txt
+abcdeg
+

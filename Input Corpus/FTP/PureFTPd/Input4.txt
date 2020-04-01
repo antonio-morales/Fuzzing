@@ -1,0 +1,12 @@
+USER fuzzing
+PASS fuzzing
+SYST
+MKD todeletenow
+XMKD todeletetoo
+PORT 127,0,0,1,14,178
+LIST
+RMD todeletenow
+XRMD todeletetoo
+PORT 127,0,0,1,14,178
+LIST
+a

@@ -1,0 +1,8 @@
+USER fuzzing
+PASS fuzzing
+MDTM test.txt
+OPTS mlst on
+EPRT ,2,0:0:0:0:0:0:0:0,1025,
+STOR teste
+a
+

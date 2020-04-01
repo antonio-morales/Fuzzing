@@ -1,0 +1,15 @@
+USER fuzzing
+PASS fuzzing
+RNFR test.txt
+RNTO test2.txt
+PORT 127,0,0,1,14,178
+LIST
+RNFR test2.txt
+RNTO test.txt
+PORT 127,0,0,1,14,178
+LIST
+STAT
+RNFR test2.txt
+RNTO test.txt
+a
+

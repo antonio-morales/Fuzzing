@@ -1,0 +1,12 @@
+USER fuzzing
+PASS fuzzing
+MFMT 20211231235959 test.txt
+PRET RETR test.txt
+PORT 127,0,0,1,14,178
+STOU
+REST
+REST 123
+TYPE I
+REST 123
+a
+

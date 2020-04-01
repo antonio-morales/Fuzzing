@@ -1,0 +1,8 @@
+USER fuzzing
+PASS fuzzing
+PORT 127,0,0,1,14,178
+APPE teste.txt
+Vamosahacerla
+STAT
+a
+

@@ -1,0 +1,11 @@
+USER fuzzing
+PASS fuzzing
+PORT 127,0,0,1,14,178
+ESTA
+PASV
+ESTP
+EPSV ALL
+auth
+CONNECT
+a
+
