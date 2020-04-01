@@ -1,0 +1,17 @@
+#EXTM3U
+#EXT-X-STREAM-INF:PROGRAM-ID=1, BANDWIDTH=688301
+http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/0640_vod.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1, BANDWIDTH=165135
+http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/0150_vod.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1, BANDWIDTH=262346
+http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/0240_vod.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1, BANDWIDTH=481677
+http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/0440_vod.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1, BANDWIDTH=1308077
+http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/1240_vod.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1, BANDWIDTH=1927853
+http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/1840_vod.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1, BANDWIDTH=2650941
+http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/2540_vod.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1, BANDWIDTH=3477293
+http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/3340_vod.m3u8

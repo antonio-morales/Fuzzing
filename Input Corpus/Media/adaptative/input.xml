@@ -1,0 +1,6 @@
+<media>
+<streamFormat>hls</streamFormat>
+<streamQuality>SD</streamQuality>
+<streamBitrate>512</streamBitrate>
+<streamUrl>sl.m3u8</streamUrl>
+</media>

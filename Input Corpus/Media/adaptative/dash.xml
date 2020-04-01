@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:full:2011" minBufferTime="PT1.5S">
+    <!-- Ad -->
+    <Period duration="PT30S">
+        <BaseURL>ad/</BaseURL>
+        <AdaptationSet mimeType="video/mp2t">
+            <Representation id="720p" bandwidth="3200000" width="1280" height="720">
+                <BaseURL>720p.ts</BaseURL>
+                <SegmentBase>
+                    <RepresentationIndex sourceURL="720p.sidx"/>
+                </SegmentBase>
+            </Representation>
+            <Representation id="1080p" bandwidth="6800000" width="1920" height="1080">
+                <BaseURL>1080p.ts</BaseURL>
+                <SegmentBase>
+                    <RepresentationIndex sourceURL="1080p.sidx"/>
+                </SegmentBase>
+            </Representation>
+        </AdaptationSet>
+    </Period>
+    <Period duration="PT5M">
+        <BaseURL>main/</BaseURL>
+        <AdaptationSet mimeType="video/mp2t">
+            <BaseURL>video/</BaseURL>
+            <Representation id="720p" bandwidth="3200000" width="1280" height="720">
+                <BaseURL>720p/</BaseURL>
+                <SegmentList timescale="90000" duration="5400000">
+                    <RepresentationIndex sourceURL="representation-index.sidx"/>
+                    <SegmentURL media="segment-1.ts"/>
+                </SegmentList>
+            </Representation>
+            <Representation id="1080p" bandwidth="6800000" width="1920" height="1080">
+                <BaseURL>1080/</BaseURL>
+                <SegmentTemplate media="segment-$Number$.ts" timescale="90000">
+                    <RepresentationIndex sourceURL="representation-index.sidx"/>
+                    <SegmentTimeline>
+                        <S t="0" r="10" d="5400000"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+        </AdaptationSet>
+        <AdaptationSet mimeType="audio/mp2t">
+            <BaseURL>audio/</BaseURL>
+            <Representation id="audio" bandwidth="128000">
+                <SegmentTemplate media="segment-$Number$.ts" timescale="90000">
+                    <RepresentationIndex sourceURL="representation-index.sidx"/>
+                    <SegmentTimeline>
+                        <S t="0" r="10" d="5400000"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+        </AdaptationSet>
+    </Period>
+</MPD>
