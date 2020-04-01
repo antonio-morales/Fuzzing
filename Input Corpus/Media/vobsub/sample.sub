@@ -1,0 +1,17 @@
+* VobSub (paired with an .IDX file)--binary format.
+* DVDSubtitle format:
+{HEAD
+DISCID=
+DVDTITLE=Disney's Dinosaur
+CODEPAGE=1250
+FORMAT=ASCII
+LANG=English
+TITLE=1
+ORIGINAL=ORIGINAL
+AUTHOR=McPoodle
+WEB=http://www.geocities.com/mcpoodle43/subs/
+INFO=Extended Edition
+LICENSE=
+}
+{T 00:00:50:28 This is the Earth at a time when the dinosaurs roamed...}
+{T 00:00:54:08 a lush and fertile planet.}

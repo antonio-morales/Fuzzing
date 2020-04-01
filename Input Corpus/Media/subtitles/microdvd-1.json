@@ -1,0 +1,29 @@
+{
+    "format": "Micro DVD",
+    "opt": "microdvd",
+    "subs":
+    [
+
+        {
+            "__Subtitle__": true,
+            "start": {"__FrameTime__": true, "frames": 0},
+            "end": {"__FrameTime__": true, "frames": 21},
+            "text": "This is first subtitle."
+        },
+
+        {
+            "__Subtitle__": true,
+            "start": {"__FrameTime__": true, "frames": 25},
+            "end": {"__FrameTime__": true, "frames": 89},
+            "text": "This is a simple subtitle{gsp_nl}which has more than one line."
+        },
+
+        {
+            "__Subtitle__": true,
+            "start": {"__FrameTime__": true, "frames": 100},
+            "end": {"__FrameTime__": true, "frames": 125},
+            "text": "{gsp_i_}{gsp_b_}{gsp_u_}This is formatted text{_gsp_b}{_gsp_i}{_gsp_u}{gsp_nl}and it's second line"
+        }
+    ]
+}
+

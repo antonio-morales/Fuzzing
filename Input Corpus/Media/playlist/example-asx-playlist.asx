@@ -1,0 +1,12 @@
+
+<ASX version = "3.0">
+<TITLE>Simple ASX Demo</TITLE>
+    <ENTRY>
+	<TITLE>Example of a Working ASX playlist</TITLE>
+	<AUTHOR>StreaGuys.Com</AUTHOR>
+	<COPYRIGHT>(c)2005 StreamGuys</COPYRIGHT>
+<!-- Change the following to point to your file(s) or stream source(s) -->
+        <REF HREF = "http://azul.streamguys.com/rastamusic" />
+        <REF HREF = "http://66.225.205.5" />
+   </ENTRY>
+</ASX>
